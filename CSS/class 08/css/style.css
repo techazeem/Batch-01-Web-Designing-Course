@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ole&family=Playwrite+AU+VIC+Guides&display=swap');
+
+
+
+
+.hed{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    background-color: aqua;
+ text-align: center;
+ color: #fff;
+ text-shadow: 3px 3px 5px #000 , 4px 4px 5px #b00a0a;
+    box-shadow: 0px 0px 9px 10px #1486ea , 0px 0px 9px 12px #5edb05;
+
+
+}
+.size{
+    font-size: 40px;
+}
+
+:root{
+    --tcolor : #e47f40;
+    --primary-font : "Playwrite AU VIC Guides", cursive;
+}
+
+.para{
+    background-color: var(--tcolor);
+    font-family: var(--primary-font);
+}
+
+.para::after{
+    content: "2" ;
+}
+.para::before{
+    content: "1";
+}
+
+.inp:focus{
+    background-color: aqua;
+    color: red;
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+    overflow-y: auto;
+
+    scrollbar-width: 10px;
+    scrollbar-color: #d8b60a #234536;
+}
+
+/* ::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background: #1486ea;
+}
+::-webkit-scrollbar-thumb{
+    background: #9bdc0d;
+    border-radius: 20px;
+} */
